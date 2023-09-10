@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first landing page</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1 data-testid="slackUserName">ejenibe uche</h1>
+        <img src="./images/suga.jpg" alt="ejenibe uche">
+        <p data-test-id="currentDayOfTheWeek">sunday</p>
+        <p data-test-id="currentUTCTime"></p>
+        <p data-test-id="myTrack">Frontend</p>
+        <a href="https://github.com/lumiereuche/intern-profile.git">github repository</a>
+    </div>   
+    
+    <script src="./script.js"></script>
+</body>
+<!-- <script>
+    function updateUTCTime() {
+        const ct = new Date().getTime()
+        const utcTimeElement = document.querySelector("[data-test-id='currentUTCTime']")
+        utcTimeElement.textContent=ct.toStrting()
+    }
+    updateUTCTime()
+    setInterval(updateUTCTime,1000) -->
+</script>
+</html>
